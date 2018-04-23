@@ -1,0 +1,52 @@
+Télécharger Git https://git-scm.com/downloads
+
+Pour toutes les commandes en dessous quand il y a un mots entre apostrophe c'est à remplacer exemple 'le prénom' = Luc 
+alors que si il y a des guillemets c'est à laisser exemple " 'le prénom' " = " Luc "
+De plus il y a plusieurs manières de faire un copié collé sur les consoles, celle qui fonctionne pour moi c'est shift + inser
+
+
+Configurer Git:
+
+Ces trois commande ne sont pas obligatoires mais c'est pour mettre en couleurs
+
+git config --global color.diff auto
+git config --global color.branch auto
+git config --global color.status auto
+
+Ici c'est pour définir qui on est (c'est utile pour savoir qui a modifié quoi): 
+
+git config --global user.name " 'le pseudo' "
+git config --global user.email " 'adresse mail' "
+
+
+Pour bien commencer la récupération des données:
+
+cd Desktop/
+git clone https://github.com/lucdegreve/NUMAG
+cd NUMAG/
+
+A partir de la il faut se faire sa propre idée en bidouillant par soi-même 
+grace aux commandes si dessous et à la vidéo youtube : https://www.youtube.com/watch?v=aQj86UD8mwA
+Ici la connection au repository est déja faite .
+Amusez vous je réinitialiserai le dossier par la suite.
+
+
+Les commandes à connaitre :
+ls							// Permet de voir ce qu'il y à dans le dossier
+git cd							// Permet de naviguer dans les dossiers
+git clone https://github.com/lucdegreve/NUMAG		// Permet de copier ce qu'il y a sur le repository
+git status						// Permet de voir le status des fichiers
+git add 'le fichier'					// Permet d'ajouter un fichier au commit pour la prochaine sauvegarde
+git commit –m " 'Message d’information'  " 		// Permet de faire une sauvgarde (Martini appelait ça la photo)
+git push						// Permet d'envoyer le dernier commit(sauvgarde) sur le repository
+git pull						// Permet de récuperer les dernières modification du repository
+
+
+Les branches ne sont pas nécessaire pour notre projet.
+
+
+Par la suite quand les commandes sont bien compris on peut mettre en place GitKraken qui permet d'utiliser Git de manier plus ergonomique. 
+Lien de téléchargement https://www.gitkraken.com/
+
+Lien de la vidéo pour comprendre comment l'utiliser 
+https://www.youtube.com/watch?v=daBPgzan_wI&t=343s
