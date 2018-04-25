@@ -1,7 +1,5 @@
 Fichier texte à modifier
 
-C'est la 2ème ligne !
+C'est la 1ère ligne !
 
-Et je modifie là. (Ou pas)
-
-J'ajoute des lignes !!!
+Et je modifie là.
